@@ -1,0 +1,29 @@
+# Archivos de Quarto
+_site/
+*.html
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Python (si usas Jupyter o scripts)
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+
+# Entorno virtual (si usas uno)
+.env
+.venv/
+entorno_analitica_datos/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos de Quarto renderizados si usas PDFs
+*.pdf
+*.docx
+
+# Archivos generados por Quarto
+*.nb.html
+*.qmd~

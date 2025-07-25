@@ -1,0 +1,8 @@
+# Introducción
+
+# Bienvenido a la práctica de analítica de datos con Jupyter Notebook
+## Ecopetrol - Universidad de los Andes
+
+## Sesión 1 : Analítica descriptiva de datos
+
+## Sesión 2: Transformación  y aseguramiento de calidad

@@ -1,0 +1,36 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Análisis Exploratorio de Datos en Python"
+  reader-mode: false
+
+  author: "Edwin John Fredy Reyes Aguirre"
+  date: today
+
+  sidebar:
+    style: docked
+    search: true
+
+  chapters:
+    - index.qmd
+    - part: Sesiones
+      chapters:
+        - Taller_1/practica1_Ecopetrol.ipynb
+        - Taller_2/practica2_Ecopetrol_v1.ipynb
+        - Taller_2/ReadMe.qmd
+        - Taller_3/practica3_Ecopetrol.ipynb
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    code-link: false
+    toc: true
+    toc-title: "Contenido"
+    number-sections: false
+    code-copy: false # Para que se habilite copiar el codigo
+    code-overflow: wrap
+    fig-align: center
