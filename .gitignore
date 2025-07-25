@@ -1,29 +1,37 @@
-# Archivos de Quarto
-_site/
-*.html
+# Entorno virtual
+venv/
+.env
+entonrno_analitica_datos/
 
-# Archivos de sistema
-.DS_Store
-Thumbs.db
-
-# Python (si usas Jupyter o scripts)
+# Archivos de Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.ipynb_checkpoints
 
-# Entorno virtual (si usas uno)
-.env
-.venv/
-entorno_analitica_datos/
+# Archivos generados por Jupyter y Quarto
+.jupyter_cache/
+_cache/
+<<<<<<< HEAD
+_freeze/
+.quarto/
+=======
+.jupyter_cache/
 
-# Archivos temporales
+>>>>>>> 00c2839 (arreglos)
+
+# Archivos temporales y del sistema
+.DS_Store
+Thumbs.db
 *.log
 *.tmp
 
-# Archivos de Quarto renderizados si usas PDFs
-*.pdf
-*.docx
+# Archivos de lock de entornos
+poetry.lock
+Pipfile.lock
+*.sqlite3
 
-# Archivos generados por Quarto
-*.nb.html
-*.qmd~
+# Opcional: si quieres ignorar todo el contenido generado en docs/
+# (solo hazlo si NO estás usando GitHub Pages)
+# docs/
+
+/.quarto/
